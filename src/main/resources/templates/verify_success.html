@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: html_head" />
+<body>
+<div class="container">
+  <div th:replace="fragments :: topnav"> Top Navigation Menu</div>
+
+  <div class="text-centre">
+    <h3>Congratulations, your account has been verified.</h3>
+    <h4><a th:href="/@{/oauth/token}">Click here to Login</a></h4>
+  </div>
+
+  <div th:replace="fragments :: footer">Static footer</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<style>
+body {
+	font-family: Arial, Open Sans, Helvetica, sans-serif;
+}
+
+.templateContainer {
+	width: 92%;
+	height: auto;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+p {
+    font-weight: normal;
+	margin: 0;
+}
+
+.title {
+	margin: 7px 0;
+	font-size:30px;
+}
+.content {
+	margin: 7px 0;
+	font-size:14px;
+}
+
+</style>
+<body style="margin: 0; padding: 0;">
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="90%" style="border-collapse: collapse;">
+
+  <tr>
+    <td>
+      </div>
+
+      <p class="content">Hello Accounts Team,</p>
+
+      <p>An Invoice has been generated in the system. Request you to check the invoice entry on the system for further process. Invoice details are mentioned below.</p>
+
+      </br>
+      <p><b>Invoice Number: <span th:text="${invoiceId}"></span></b></p>
+      <p><b>Client Name: <span th:text="${clientName}"></span></b></p>
+      <p><b>Project Name: <span th:text="${projectName}"></span></b></p>
+      </br>
+
+      <p class="content">Thanks & Regards,<br/>Invoicing Tech Support</p></br>
+      <p>Note: This is system generated email, in case of any queries please contact respective project PM or Accounts team.</p>
+      </div>
+
+    </td>
+  </tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<style>
+body {
+	font-family: Arial, Open Sans, Helvetica, sans-serif;
+}
+
+.templateContainer {
+	width: 92%;
+	height: auto;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+p {
+    font-weight: normal;
+	margin: 0;
+}
+
+.title {
+	margin: 7px 0;
+	font-size:30px;
+}
+.content {
+	margin: 7px 0;
+	font-size:18px;
+}
+
+</style>
+<body style="margin: 0; padding: 0;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="80%" style="border-collapse: collapse;">
+
+    <tr>
+        <!--<td align="center">
+            <img src="https://firebasestorage.googleapis.com/v0/b/giggi-biz4.appspot.com/o/LOGO%2Flogo.svg?alt=media&token=fcfb1b22-d973-416a-80ea-b405564b3681"
+
+                 style="display: block;width: 21%; height: auto;"/>
+        </td>-->
+    </tr>
+    <tr>
+        <td>
+            </div>
+            <p class="content">Dear User,</p>
+
+            <p class="content">Please use this one-time verification code to successfully log in to your account.</p>
+            <p class="content">Your verification code is : <span th:text="${code}"></span></p>
+
+            <p class="content">Thank you,<br/>ClientInvoice team</p>
+
+            <p class="content">This is a system generated email. PLEASE DO NOT REPLY.</p>
+
+
+            </div>
+
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>>

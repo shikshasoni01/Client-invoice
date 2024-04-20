@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<style>
+body {
+	font-family: Arial, Open Sans, Helvetica, sans-serif;
+}
+
+.templateContainer {
+	width: 92%;
+	height: auto;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+p {
+    font-weight: normal;
+	margin: 0;
+}
+
+.title {
+	margin: 7px 0;
+	font-size:30px;
+}
+.content {
+	margin: 7px 0;
+	font-size:18px;
+}
+
+</style>
+<body style="margin: 0; padding: 0;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="80%" style="border-collapse: collapse;">
+
+<div class="templateContainer">
+
+    <div class="content">
+
+
+        <p class = "content">Dear ${name},</p>
+        <p class = "content">Please click the link below to verify your registration:</p>
+        <p class = "content"><h3><a href=\"${verifyURL}\" target=\"_self\">VERIFY</a></h3></p>
+        <p class = "content">Thank you,</p>
+        <p class = "content">Client Invoice Team.</p>
+
+<!--        <p class = "content">content.replace("[[name]]", user.getFirstName())<br>-->
+<!--           + verifyURL = serverURL + "/api/v1/users/verify?code=" + user.getVerificationCode()</p>-->
+<!--        <p class = "content">content.replace("[[URL]]", verifyURL);</p>-->
+
+
+    </div>
+</div>
+</table>
+</body>
+</html>

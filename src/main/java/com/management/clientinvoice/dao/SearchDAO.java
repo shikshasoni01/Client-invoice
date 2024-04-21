@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.dao;
+package com.management.clientinvoice.dao;
 
-import com.biz4solutions.clientinvoice.dto.PaginationDTO;
-import com.biz4solutions.clientinvoice.domain.Projects;
-import com.biz4solutions.clientinvoice.dto.ProjectDTO;
+import com.management.clientinvoice.dto.PaginationDTO;
+import com.management.clientinvoice.domain.Projects;
+import com.management.clientinvoice.dto.ProjectDTO;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.NativeQuery;
 import org.hibernate.transform.Transformers;

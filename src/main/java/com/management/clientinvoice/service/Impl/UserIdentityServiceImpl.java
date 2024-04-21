@@ -1,22 +1,19 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 
-import com.biz4solutions.clientinvoice.domain.Role;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.domain.UserProfile;
-import com.biz4solutions.clientinvoice.dto.MailDTO;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.enumerator.MailType;
-import com.biz4solutions.clientinvoice.enumerator.RoleType;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.LoginHistoryRepository;
-import com.biz4solutions.clientinvoice.repository.RoleRepository;
-import com.biz4solutions.clientinvoice.repository.UserIdentityRepository;
-import com.biz4solutions.clientinvoice.repository.UserProfileRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
-import com.biz4solutions.clientinvoice.service.IUserIdentityService;
-import com.biz4solutions.clientinvoice.util.JwtUtil;
-import com.biz4solutions.clientinvoice.util.ValidationUtil;
+import com.management.clientinvoice.domain.Role;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.domain.UserProfile;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.enumerator.RoleType;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.LoginHistoryRepository;
+import com.management.clientinvoice.repository.RoleRepository;
+import com.management.clientinvoice.repository.UserIdentityRepository;
+import com.management.clientinvoice.repository.UserProfileRepository;
+import com.management.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
+import com.management.clientinvoice.service.IUserIdentityService;
+import com.management.clientinvoice.util.ValidationUtil;
 import com.sun.xml.messaging.saaj.packaging.mime.MessagingException;
 import net.bytebuddy.utility.RandomString;
 import org.springframework.beans.BeanUtils;
@@ -33,8 +30,6 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.mail.internet.MimeMessage;
 import javax.validation.Valid;
 import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 
 @Service

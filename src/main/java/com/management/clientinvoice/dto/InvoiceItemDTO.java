@@ -1,7 +1,5 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.InvoiceItem;
 import lombok.Getter;
 import lombok.Setter;
 

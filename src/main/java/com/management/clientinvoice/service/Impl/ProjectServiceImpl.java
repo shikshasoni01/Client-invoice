@@ -1,19 +1,19 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 
 
-import com.biz4solutions.clientinvoice.dao.ProjectDAO;
-import com.biz4solutions.clientinvoice.domain.*;
-import com.biz4solutions.clientinvoice.dto.PaginationDTO;
-import com.biz4solutions.clientinvoice.dto.ProjectDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.*;
-import com.biz4solutions.clientinvoice.requestWrapper.ProjectFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.ProjectRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UpdateProjectRequestWrapper;
-import com.biz4solutions.clientinvoice.service.EmailService;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.ProjectService;
+import com.management.clientinvoice.dao.ProjectDAO;
+import com.management.clientinvoice.domain.*;
+import com.management.clientinvoice.dto.PaginationDTO;
+import com.management.clientinvoice.dto.ProjectDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.*;
+import com.management.clientinvoice.requestWrapper.ProjectFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.ProjectRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateProjectRequestWrapper;
+import com.management.clientinvoice.service.EmailService;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.data.domain.Page;

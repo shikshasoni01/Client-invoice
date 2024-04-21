@@ -1,11 +1,11 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-import com.biz4solutions.clientinvoice.dto.OtpRequestDTO;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.CommonRequestHeaders;
-import com.biz4solutions.clientinvoice.requestWrapper.OtpVerifyRequesWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.RequestOtpRequestWrapper;
+import com.management.clientinvoice.dto.OtpRequestDTO;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.CommonRequestHeaders;
+import com.management.clientinvoice.requestWrapper.OtpVerifyRequesWrapper;
+import com.management.clientinvoice.requestWrapper.RequestOtpRequestWrapper;
 import org.springframework.context.NoSuchMessageException;
 import org.springframework.stereotype.Service;
 

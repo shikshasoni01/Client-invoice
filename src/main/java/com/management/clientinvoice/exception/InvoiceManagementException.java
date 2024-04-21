@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.exception;
+package com.management.clientinvoice.exception;
 
 
 public class InvoiceManagementException extends RuntimeException {

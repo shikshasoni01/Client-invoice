@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 
 
@@ -33,7 +33,7 @@ public class SwaggerConfig {
         ApiInfo apiInfo = new ApiInfo("My REST API",
                 "Some custom description of API.",
                 "API TOS", "Terms of service",
-                "biz4solutions.com",
+                "project.com",
                 "License of API",
                 "API license URL");
         return apiInfo;

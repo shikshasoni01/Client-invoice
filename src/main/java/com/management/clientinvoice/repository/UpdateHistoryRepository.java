@@ -1,14 +1,10 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.UpdateHistory;
+import com.management.clientinvoice.domain.UpdateHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
-import java.util.Optional;
 
 @Repository
 public interface UpdateHistoryRepository extends JpaRepository<UpdateHistory,Long> {

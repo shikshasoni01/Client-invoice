@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
 import java.util.List;
-import com.biz4solutions.clientinvoice.domain.UserInfo;
+import com.management.clientinvoice.domain.UserInfo;
 import org.springframework.stereotype.Service;
 
 @Service

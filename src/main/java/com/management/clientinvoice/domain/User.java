@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.domain;
+package com.management.clientinvoice.domain;
 
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
+import com.management.clientinvoice.constant.DBConstants;
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.*;

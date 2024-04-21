@@ -1,15 +1,13 @@
-package com.biz4solutions.clientinvoice.domain;
+package com.management.clientinvoice.domain;
 
 
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
+import com.management.clientinvoice.constant.DBConstants;
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-import java.util.HashSet;
-import java.util.Set;
 
 @Getter
 @Setter

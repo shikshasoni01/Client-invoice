@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice;
+package com.management.clientinvoice;
 
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;

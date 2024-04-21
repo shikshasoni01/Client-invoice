@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.util;
+package com.management.clientinvoice.util;
 
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.SignupRequestWrapper;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.SignupRequestWrapper;
 import lombok.NoArgsConstructor;
 import org.apache.http.util.TextUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,13 +1,9 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
-import com.biz4solutions.clientinvoice.domain.PaymentMode;
-import com.biz4solutions.clientinvoice.domain.PaymentTerm;
-import com.biz4solutions.clientinvoice.dto.PaymentModeDTO;
-import com.biz4solutions.clientinvoice.dto.PaymentTermDTO;
-import com.biz4solutions.clientinvoice.repository.PaymentModeRepository;
-import com.biz4solutions.clientinvoice.repository.PaymentTermRepository;
-import com.biz4solutions.clientinvoice.service.PaymentModeService;
-import com.biz4solutions.clientinvoice.service.PaymentTermService;
+import com.management.clientinvoice.domain.PaymentTerm;
+import com.management.clientinvoice.dto.PaymentTermDTO;
+import com.management.clientinvoice.repository.PaymentTermRepository;
+import com.management.clientinvoice.service.PaymentTermService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

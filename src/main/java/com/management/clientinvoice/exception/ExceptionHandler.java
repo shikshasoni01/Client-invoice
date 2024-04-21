@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.exception;
+package com.management.clientinvoice.exception;
 
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.util.ResponseFormatter;
 import org.apache.log4j.Logger;
 import org.json.JSONException;
 import org.json.simple.JSONObject;

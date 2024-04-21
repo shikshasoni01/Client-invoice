@@ -1,10 +1,9 @@
-package com.biz4solutions.clientinvoice.dao;
+package com.management.clientinvoice.dao;
 
 
-import com.biz4solutions.clientinvoice.domain.Projects;
-import com.biz4solutions.clientinvoice.dto.ProjectDTO;
-import com.biz4solutions.clientinvoice.repository.ProjectRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.ProjectFilterRequestWrapper;
+import com.management.clientinvoice.domain.Projects;
+import com.management.clientinvoice.repository.ProjectRepository;
+import com.management.clientinvoice.requestWrapper.ProjectFilterRequestWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -16,7 +15,6 @@ import org.springframework.util.StringUtils;
 
 import javax.persistence.EntityManager;
 import java.math.BigInteger;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -31,7 +29,7 @@ public class ProjectDAO {
     @Autowired
     private ProjectRepository projectRepository;
 
-    public Page<Projects>  findAllSearchTextContainingIgnoreCase(ProjectFilterRequestWrapper request, Pageable pageable,String filter, String sort){
+    public Page<Projects>  findAllSearchTextContainingIgnoreCase(ProjectFilterRequestWrapper request, Pageable pageable, String filter, String sort){
 
         StringBuilder selectQuery1 = new StringBuilder();
 

@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 
 

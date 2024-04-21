@@ -1,15 +1,10 @@
-package com.biz4solutions.clientinvoice.requestWrapper;
+package com.management.clientinvoice.requestWrapper;
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
-import com.biz4solutions.clientinvoice.domain.Invoice;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.Column;
-import java.sql.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 
 @Getter

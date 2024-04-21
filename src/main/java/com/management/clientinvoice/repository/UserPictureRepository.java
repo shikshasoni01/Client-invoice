@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.domain.UserPicture;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.domain.UserPicture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

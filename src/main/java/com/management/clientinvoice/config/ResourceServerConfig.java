@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 
 import org.springframework.context.annotation.Configuration;

@@ -1,12 +1,11 @@
-package com.biz4solutions.clientinvoice.dao;
+package com.management.clientinvoice.dao;
 
 
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.InvoiceDTO;
-import com.biz4solutions.clientinvoice.repository.InvoiceRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.domain.Invoice;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.repository.InvoiceRepository;
+import com.management.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

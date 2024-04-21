@@ -1,7 +1,6 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
-import com.biz4solutions.clientinvoice.domain.Client;
+import com.management.clientinvoice.domain.Client;
 import lombok.Getter;
 import lombok.Setter;
 

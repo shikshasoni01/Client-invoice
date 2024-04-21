@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import com.biz4solutions.clientinvoice.domain.Country;
+import com.management.clientinvoice.domain.Country;
 
 import java.util.Optional;
 

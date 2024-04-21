@@ -1,8 +1,6 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-import com.biz4solutions.clientinvoice.dto.InvoiceDTO;
-
-import com.biz4solutions.clientinvoice.dto.PaymentModeDTO;
+import com.management.clientinvoice.dto.PaymentModeDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

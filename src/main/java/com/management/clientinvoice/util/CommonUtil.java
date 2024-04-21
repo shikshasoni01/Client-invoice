@@ -1,11 +1,11 @@
-package com.biz4solutions.clientinvoice.util;
+package com.management.clientinvoice.util;
 
-import com.biz4solutions.clientinvoice.config.SpringContext;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.domain.UserProfile;
-import com.biz4solutions.clientinvoice.dto.Pair;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.UserIdentityRepository;
+import com.management.clientinvoice.config.SpringContext;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.domain.UserProfile;
+import com.management.clientinvoice.dto.Pair;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.UserIdentityRepository;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.http.util.TextUtils;
 import org.json.JSONObject;

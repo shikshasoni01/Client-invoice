@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.InvoiceItem;
+import com.management.clientinvoice.domain.Invoice;
+import com.management.clientinvoice.domain.InvoiceItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

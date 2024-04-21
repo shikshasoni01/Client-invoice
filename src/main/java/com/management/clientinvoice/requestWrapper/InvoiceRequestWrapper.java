@@ -1,8 +1,5 @@
-package com.biz4solutions.clientinvoice.requestWrapper;
+package com.management.clientinvoice.requestWrapper;
 
-import com.biz4solutions.clientinvoice.domain.InvoiceItem;
-import com.biz4solutions.clientinvoice.enumerator.InvoiceStatus;
-import com.biz4solutions.clientinvoice.enumerator.PaymentType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -13,9 +10,7 @@ import javax.persistence.Enumerated;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
-import java.sql.Array;
 import java.sql.Date;
-import java.util.Arrays;
 import java.util.List;
 
 

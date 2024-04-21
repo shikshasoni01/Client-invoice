@@ -1,6 +1,6 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
-import com.biz4solutions.clientinvoice.util.StringUtils;
+import com.management.clientinvoice.util.StringUtils;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

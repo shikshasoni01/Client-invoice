@@ -1,9 +1,9 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.repository.UserIdentityRepository;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.repository.UserIdentityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;

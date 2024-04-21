@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
 
-import com.biz4solutions.clientinvoice.enumerator.MailType;
+import com.management.clientinvoice.enumerator.MailType;
 import lombok.Getter;
 import lombok.Setter;
 

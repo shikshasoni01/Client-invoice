@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
-import com.biz4solutions.clientinvoice.domain.AppConfig;
+import com.management.clientinvoice.domain.AppConfig;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;

@@ -1,19 +1,19 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
-import com.biz4solutions.clientinvoice.domain.*;
-import com.biz4solutions.clientinvoice.dto.CityDTO;
-import com.biz4solutions.clientinvoice.dto.InvoiceDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.CityRepository;
-import com.biz4solutions.clientinvoice.repository.StateRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.CityRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.StateService;
+
+import com.management.clientinvoice.domain.City;
+import com.management.clientinvoice.domain.State;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.CityDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.CityRepository;
+import com.management.clientinvoice.repository.StateRepository;
+import com.management.clientinvoice.requestWrapper.CityRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
-import com.biz4solutions.clientinvoice.service.CityService;
+import com.management.clientinvoice.service.CityService;
 
 import java.util.*;
 

@@ -1,10 +1,9 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
 
-import com.biz4solutions.clientinvoice.domain.Client;
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.Projects;
+import com.management.clientinvoice.domain.Client;
+import com.management.clientinvoice.domain.Projects;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -12,7 +11,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import java.util.Date;
 import java.util.List;
 
 

@@ -1,12 +1,12 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.PaymentModeDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.PaymentModeRepository;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.PaymentModeService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.PaymentModeDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.PaymentModeRepository;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.PaymentModeService;
+import com.management.clientinvoice.util.ResponseFormatter;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;

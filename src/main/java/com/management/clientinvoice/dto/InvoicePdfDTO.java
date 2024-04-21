@@ -1,9 +1,8 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
-import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.List;
 

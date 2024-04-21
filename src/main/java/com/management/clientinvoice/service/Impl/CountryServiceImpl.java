@@ -1,21 +1,19 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
-import com.biz4solutions.clientinvoice.domain.Client;
-import com.biz4solutions.clientinvoice.domain.Country;
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.CountryDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.CountryRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.CountryRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.domain.Country;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.CountryDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.CountryRepository;
+import com.management.clientinvoice.requestWrapper.CountryRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import com.biz4solutions.clientinvoice.service.CountryService;
+import com.management.clientinvoice.service.CountryService;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.mail.MessagingException;

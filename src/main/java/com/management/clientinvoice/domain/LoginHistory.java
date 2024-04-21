@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.domain;
+package com.management.clientinvoice.domain;
 
 
 import org.hibernate.annotations.Where;

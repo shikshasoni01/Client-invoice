@@ -1,14 +1,14 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.IUserIdentityService;
-import com.biz4solutions.clientinvoice.service.IUserService;
-import com.biz4solutions.clientinvoice.service.Impl.UserIdentityValidator;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.IUserIdentityService;
+import com.management.clientinvoice.service.IUserService;
+import com.management.clientinvoice.service.Impl.UserIdentityValidator;
+import com.management.clientinvoice.util.ResponseFormatter;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.apache.log4j.Logger;

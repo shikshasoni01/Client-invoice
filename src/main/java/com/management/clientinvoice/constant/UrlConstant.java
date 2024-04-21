@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.constant;
+package com.management.clientinvoice.constant;
 
 
 public class UrlConstant {

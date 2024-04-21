@@ -1,15 +1,15 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.StateDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.StateRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.StateRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.StateDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.StateRepository;
+import com.management.clientinvoice.requestWrapper.StateRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.util.ResponseFormatter;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +20,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
-import com.biz4solutions.clientinvoice.domain.State;
-import com.biz4solutions.clientinvoice.service.StateService;
+import com.management.clientinvoice.domain.State;
+import com.management.clientinvoice.service.StateService;
 
 import javax.servlet.http.HttpServletRequest;
 

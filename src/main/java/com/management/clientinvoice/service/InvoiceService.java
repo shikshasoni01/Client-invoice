@@ -1,13 +1,11 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-
-
-import com.biz4solutions.clientinvoice.dto.*;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceNumberUpdateRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UpdateInvoiceRequest;
+import com.management.clientinvoice.dto.*;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.InvoiceNumberUpdateRequestWrapper;
+import com.management.clientinvoice.requestWrapper.InvoiceRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateInvoiceRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 

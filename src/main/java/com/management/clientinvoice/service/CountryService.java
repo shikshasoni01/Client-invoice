@@ -1,9 +1,9 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-import com.biz4solutions.clientinvoice.domain.Country;
-import com.biz4solutions.clientinvoice.dto.CountryDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.CountryRequestWrapper;
+import com.management.clientinvoice.domain.Country;
+import com.management.clientinvoice.dto.CountryDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.CountryRequestWrapper;
 import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;

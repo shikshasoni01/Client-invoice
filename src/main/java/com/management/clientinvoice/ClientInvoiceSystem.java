@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice;
+package com.management.clientinvoice;
 
 import com.google.gson.Gson;
 import org.springframework.boot.SpringApplication;

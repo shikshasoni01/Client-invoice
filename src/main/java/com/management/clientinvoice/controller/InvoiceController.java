@@ -1,22 +1,17 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
-import com.biz4solutions.clientinvoice.constant.UrlConstant;
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.PaymentStatus;
-import com.biz4solutions.clientinvoice.dto.*;
-import com.biz4solutions.clientinvoice.enumerator.InvoiceStatus;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.InvoiceRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceNumberUpdateRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.InvoiceRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UpdateInvoiceRequest;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.InvoiceService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
-//import io.swagger.annotations.ApiImplicitParam;
-//import io.swagger.annotations.ApiImplicitParams;
+import com.management.clientinvoice.constant.UrlConstant;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.*;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.InvoiceRepository;
+import com.management.clientinvoice.requestWrapper.InvoiceFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.InvoiceNumberUpdateRequestWrapper;
+import com.management.clientinvoice.requestWrapper.InvoiceRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateInvoiceRequest;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.InvoiceService;
+import com.management.clientinvoice.util.ResponseFormatter;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.apache.log4j.Logger;
@@ -26,13 +21,11 @@ import org.springframework.context.MessageSource;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.web.bind.annotation.*;
 
 import javax.mail.MessagingException;
@@ -40,10 +33,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import java.util.Optional;
 
 
 @RestController

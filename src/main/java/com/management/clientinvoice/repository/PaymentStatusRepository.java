@@ -1,6 +1,6 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
-import com.biz4solutions.clientinvoice.domain.PaymentStatus;
+import com.management.clientinvoice.domain.PaymentStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

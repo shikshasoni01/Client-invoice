@@ -1,9 +1,9 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
 
-import com.biz4solutions.clientinvoice.domain.BaseEntity;
-import com.biz4solutions.clientinvoice.util.CommonUtil;
+import com.management.clientinvoice.domain.BaseEntity;
+import com.management.clientinvoice.util.CommonUtil;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

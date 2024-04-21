@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
 
 import java.util.List;

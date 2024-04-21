@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.util;
+package com.management.clientinvoice.util;
 
 
 import java.io.Serializable;
@@ -6,9 +6,8 @@ import java.sql.Timestamp;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import com.biz4solutions.clientinvoice.constant.DBConstants;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.domain.UserProfile;
+import com.management.clientinvoice.constant.DBConstants;
+import com.management.clientinvoice.domain.UserProfile;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;

@@ -1,13 +1,13 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import com.biz4solutions.clientinvoice.domain.UserInfo;
-import com.biz4solutions.clientinvoice.repository.UserDetailsRepository;
-import com.biz4solutions.clientinvoice.service.UserInfoService;
+import com.management.clientinvoice.domain.UserInfo;
+import com.management.clientinvoice.repository.UserDetailsRepository;
+import com.management.clientinvoice.service.UserInfoService;
 
 @Repository
 @Transactional

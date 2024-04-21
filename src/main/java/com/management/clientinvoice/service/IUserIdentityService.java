@@ -1,9 +1,9 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
 
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
 import com.sun.xml.messaging.saaj.packaging.mime.MessagingException;
 import org.springframework.stereotype.Service;
 

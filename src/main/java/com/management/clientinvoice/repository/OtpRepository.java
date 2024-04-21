@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
 
-import com.biz4solutions.clientinvoice.domain.Otp;
+import com.management.clientinvoice.domain.Otp;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

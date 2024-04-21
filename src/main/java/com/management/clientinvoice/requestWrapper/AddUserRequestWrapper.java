@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.requestWrapper;
+package com.management.clientinvoice.requestWrapper;
 
 
 import java.util.List;

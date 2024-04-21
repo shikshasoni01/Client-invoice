@@ -1,11 +1,11 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.UserIdentityRepository;
-import com.biz4solutions.clientinvoice.repository.UserProfileRepository;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.UserIdentityRepository;
+import com.management.clientinvoice.repository.UserProfileRepository;
+import com.management.clientinvoice.service.ICommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;

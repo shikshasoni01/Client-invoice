@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.dao;
+package com.management.clientinvoice.dao;
 
-import com.biz4solutions.clientinvoice.domain.Client;
-import com.biz4solutions.clientinvoice.repository.ClientRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
+import com.management.clientinvoice.domain.Client;
+import com.management.clientinvoice.repository.ClientRepository;
+import com.management.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -26,7 +26,7 @@ public class ClientDAO {
     @Autowired
     private ClientRepository clientRepository;
 
-    public Page<Client> findAllSearchTextContainingIgnoreCase(ClientFilterRequestWrapper request, Pageable pageable, String filter,String sort){
+    public Page<Client> findAllSearchTextContainingIgnoreCase(ClientFilterRequestWrapper request, Pageable pageable, String filter, String sort){
 
         StringBuilder selectQuery1 = new StringBuilder();
 

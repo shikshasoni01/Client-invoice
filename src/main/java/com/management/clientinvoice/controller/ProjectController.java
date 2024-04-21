@@ -1,16 +1,18 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
 
-import com.biz4solutions.clientinvoice.constant.UrlConstant;
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.PaginationDTO;
-import com.biz4solutions.clientinvoice.dto.ProjectDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.ProjectRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.*;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.ProjectService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.UrlConstant;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.PaginationDTO;
+import com.management.clientinvoice.dto.ProjectDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.ProjectRepository;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.ProjectService;
+import com.management.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.requestWrapper.ProjectFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.ProjectRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateProjectRequestWrapper;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +29,6 @@ import javax.mail.MessagingException;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Locale;
-import java.util.Optional;
 
 @RestController
 @RequestMapping(value = "/api/v1/user/project")

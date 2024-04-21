@@ -1,17 +1,17 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
 
-import com.biz4solutions.clientinvoice.constant.UrlConstant;
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.dto.UserDetailsDTO;
-import com.biz4solutions.clientinvoice.dto.UserProfileImagesDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.AddUserRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UserPictureRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.IUserService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.UrlConstant;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.dto.UserDetailsDTO;
+import com.management.clientinvoice.dto.UserProfileImagesDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.AddUserRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UserPictureRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.IUserService;
+import com.management.clientinvoice.util.ResponseFormatter;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.apache.log4j.Logger;

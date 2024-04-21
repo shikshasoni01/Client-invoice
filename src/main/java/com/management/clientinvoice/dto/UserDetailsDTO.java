@@ -1,12 +1,10 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
 
 
-import com.biz4solutions.clientinvoice.enumerator.RoleType;
+import com.management.clientinvoice.enumerator.RoleType;
 import lombok.Getter;
 import lombok.Setter;
-import java.util.Date;
-import java.util.UUID;
 
 @Getter
 @Setter

@@ -1,6 +1,6 @@
-package com.biz4solutions.clientinvoice.repository;
+package com.management.clientinvoice.repository;
 
-import com.biz4solutions.clientinvoice.domain.sequence.InvoiceSequenceNumber;
+import com.management.clientinvoice.domain.sequence.InvoiceSequenceNumber;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

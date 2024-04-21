@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 
-import com.biz4solutions.clientinvoice.dto.MailDTO;
-import com.biz4solutions.clientinvoice.enumerator.MailType;
+import com.management.clientinvoice.dto.MailDTO;
+import com.management.clientinvoice.enumerator.MailType;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,8 +15,6 @@ import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
-
-import java.io.File;
 
 @Service
 public class MailClient {

@@ -1,9 +1,9 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
-import com.biz4solutions.clientinvoice.dto.MailDTO;
-import com.biz4solutions.clientinvoice.enumerator.MailType;
-import com.biz4solutions.clientinvoice.service.EmailService;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.dto.MailDTO;
+import com.management.clientinvoice.enumerator.MailType;
+import com.management.clientinvoice.service.EmailService;
+import com.management.clientinvoice.service.ICommonService;
 import com.google.api.client.util.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;

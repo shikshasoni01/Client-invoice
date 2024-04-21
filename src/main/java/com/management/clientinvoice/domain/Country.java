@@ -1,7 +1,7 @@
-package com.biz4solutions.clientinvoice.domain;
+package com.management.clientinvoice.domain;
 
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
+import com.management.clientinvoice.constant.DBConstants;
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.*;
@@ -24,7 +24,7 @@ public class Country extends BaseEntity {
     private Long id;
 
     @Column(name = "country_name")
-    @Size(min=DBConstants.COUNTRY_MIN_CHAR_LIMIT,max = DBConstants.COUNTRY_MAX_CHAR_LIMIT)
+    @Size(min= DBConstants.COUNTRY_MIN_CHAR_LIMIT,max = DBConstants.COUNTRY_MAX_CHAR_LIMIT)
     private String countryName;
 
     @Column(name = "country_code")

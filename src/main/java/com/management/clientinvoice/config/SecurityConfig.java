@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

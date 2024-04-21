@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.domain.sequence;
+package com.management.clientinvoice.domain.sequence;
 
 import lombok.Getter;
 

@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.dto;
+package com.management.clientinvoice.dto;
 
 
-import com.biz4solutions.clientinvoice.domain.Projects;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.domain.Projects;
+import com.management.clientinvoice.domain.UserIdentity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;

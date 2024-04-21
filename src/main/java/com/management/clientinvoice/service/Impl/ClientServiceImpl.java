@@ -1,19 +1,18 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 import java.util.*;
 
-import com.biz4solutions.clientinvoice.dao.ClientDAO;
-import com.biz4solutions.clientinvoice.domain.*;
-import com.biz4solutions.clientinvoice.dto.ClientDTO;
-import com.biz4solutions.clientinvoice.dto.ClientTypeDTO;
-import com.biz4solutions.clientinvoice.dto.PaginationDTO;
-import com.biz4solutions.clientinvoice.dto.PaymentStatusDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.*;
-import com.biz4solutions.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.ClientRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UpdateClientRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.dao.ClientDAO;
+import com.management.clientinvoice.domain.*;
+import com.management.clientinvoice.dto.ClientDTO;
+import com.management.clientinvoice.dto.ClientTypeDTO;
+import com.management.clientinvoice.dto.PaginationDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.*;
+import com.management.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.ClientRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateClientRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.data.domain.Page;
@@ -21,7 +20,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import com.biz4solutions.clientinvoice.service.ClientService;
+import com.management.clientinvoice.service.ClientService;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 

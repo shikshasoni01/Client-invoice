@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.requestWrapper;
+package com.management.clientinvoice.requestWrapper;
 
 
 public class SignupRequestWrapper extends SignupBaseRequestWrapper {

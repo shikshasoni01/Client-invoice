@@ -1,6 +1,6 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-import com.biz4solutions.clientinvoice.dto.LocationDTO;
+import com.management.clientinvoice.dto.LocationDTO;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

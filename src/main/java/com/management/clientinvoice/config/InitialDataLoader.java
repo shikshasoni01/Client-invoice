@@ -1,17 +1,17 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 
 
-import com.biz4solutions.clientinvoice.domain.Role;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.enumerator.RoleType;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.RoleRepository;
-import com.biz4solutions.clientinvoice.repository.UserIdentityRepository;
-import com.biz4solutions.clientinvoice.repository.UserProfileRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
-import com.biz4solutions.clientinvoice.service.IUserIdentityService;
+import com.management.clientinvoice.domain.Role;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.enumerator.RoleType;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.RoleRepository;
+import com.management.clientinvoice.repository.UserIdentityRepository;
+import com.management.clientinvoice.repository.UserProfileRepository;
+import com.management.clientinvoice.requestWrapper.SignupBaseRequestWrapper;
+import com.management.clientinvoice.service.IUserIdentityService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;

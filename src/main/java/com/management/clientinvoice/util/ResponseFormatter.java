@@ -1,9 +1,8 @@
-package com.biz4solutions.clientinvoice.util;
+package com.management.clientinvoice.util;
 
 
 
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.CountryRequestWrapper;
+import com.management.clientinvoice.exception.InvoiceManagementException;
 import org.json.simple.JSONObject;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -13,9 +12,6 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class ResponseFormatter extends ResponseEntityExceptionHandler {
     private ResponseFormatter(){}

@@ -1,8 +1,8 @@
-package com.biz4solutions.clientinvoice.constant;
+package com.management.clientinvoice.constant;
 
-import com.biz4solutions.clientinvoice.domain.Client;
-import com.biz4solutions.clientinvoice.domain.Invoice;
-import com.biz4solutions.clientinvoice.domain.Projects;
+import com.management.clientinvoice.domain.Client;
+import com.management.clientinvoice.domain.Invoice;
+import com.management.clientinvoice.domain.Projects;
 import java.util.Comparator;
 
 public interface ComparatorConstantsForProjects {

@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.config;
+package com.management.clientinvoice.config;
 
 
 import javax.servlet.http.HttpServletRequest;

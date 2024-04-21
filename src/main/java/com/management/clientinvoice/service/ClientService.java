@@ -1,15 +1,14 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
 import java.util.List;
 
-import com.biz4solutions.clientinvoice.dto.ClientDTO;
-import com.biz4solutions.clientinvoice.dto.ClientTypeDTO;
-import com.biz4solutions.clientinvoice.dto.PaginationDTO;
-import com.biz4solutions.clientinvoice.dto.PaymentStatusDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.ClientRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UpdateClientRequestWrapper;
+import com.management.clientinvoice.dto.ClientDTO;
+import com.management.clientinvoice.dto.ClientTypeDTO;
+import com.management.clientinvoice.dto.PaginationDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.ClientFilterRequestWrapper;
+import com.management.clientinvoice.requestWrapper.ClientRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UpdateClientRequestWrapper;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +24,7 @@ public interface ClientService {
     ClientDTO getASingleClient(Long id) throws InvoiceManagementException;
 
     List<ClientTypeDTO> listClientType();
-    void createClient(ClientRequestWrapper request,String acceptLanguage) throws InvoiceManagementException;
+    void createClient(ClientRequestWrapper request, String acceptLanguage) throws InvoiceManagementException;
 
     void enableClient(Long  clientId, String acceptLanguage) throws InvoiceManagementException;
 

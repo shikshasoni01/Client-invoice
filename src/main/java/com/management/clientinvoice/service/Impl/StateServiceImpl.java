@@ -1,20 +1,20 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 import java.util.*;
 
-import com.biz4solutions.clientinvoice.domain.Country;
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.StateDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.repository.CountryRepository;
-import com.biz4solutions.clientinvoice.requestWrapper.StateRequestWrapper;
-import com.biz4solutions.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.domain.Country;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.StateDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.repository.CountryRepository;
+import com.management.clientinvoice.requestWrapper.StateRequestWrapper;
+import com.management.clientinvoice.service.ICommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
-import com.biz4solutions.clientinvoice.domain.State;
-import com.biz4solutions.clientinvoice.repository.StateRepository;
-import com.biz4solutions.clientinvoice.service.StateService;
+import com.management.clientinvoice.domain.State;
+import com.management.clientinvoice.repository.StateRepository;
+import com.management.clientinvoice.service.StateService;
 
 @Service
 public class StateServiceImpl implements StateService{

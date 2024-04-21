@@ -1,7 +1,5 @@
-package com.biz4solutions.clientinvoice.requestWrapper;
+package com.management.clientinvoice.requestWrapper;
 
-import com.biz4solutions.clientinvoice.constant.DBConstants;
-import com.biz4solutions.clientinvoice.domain.Country;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.validator.constraints.Length;

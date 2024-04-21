@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.enumerator;
+package com.management.clientinvoice.enumerator;
 
 
 public enum RoleType {

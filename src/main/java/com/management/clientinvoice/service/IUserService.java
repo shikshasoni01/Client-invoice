@@ -1,12 +1,12 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
-import com.biz4solutions.clientinvoice.domain.UserIdentity;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.dto.UserDetailsDTO;
-import com.biz4solutions.clientinvoice.dto.UserProfileImagesDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.AddUserRequestWrapper;
-import com.biz4solutions.clientinvoice.requestWrapper.UserPictureRequestWrapper;
+import com.management.clientinvoice.domain.UserIdentity;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.dto.UserDetailsDTO;
+import com.management.clientinvoice.dto.UserProfileImagesDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.AddUserRequestWrapper;
+import com.management.clientinvoice.requestWrapper.UserPictureRequestWrapper;
 import org.springframework.context.NoSuchMessageException;
 import org.springframework.stereotype.Service;
 import java.text.ParseException;

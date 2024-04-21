@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.util;
+package com.management.clientinvoice.util;
 
 
 public class StringUtils {

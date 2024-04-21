@@ -1,4 +1,4 @@
-package com.biz4solutions.clientinvoice.service;
+package com.management.clientinvoice.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,15 +1,15 @@
-package com.biz4solutions.clientinvoice.controller;
+package com.management.clientinvoice.controller;
 
-import com.biz4solutions.clientinvoice.constant.UrlConstant;
-import com.biz4solutions.clientinvoice.constant.WebConstants;
-import com.biz4solutions.clientinvoice.dto.OtpRequestDTO;
-import com.biz4solutions.clientinvoice.dto.UserDTO;
-import com.biz4solutions.clientinvoice.exception.InvoiceManagementException;
-import com.biz4solutions.clientinvoice.requestWrapper.*;
-import com.biz4solutions.clientinvoice.service.ICommonService;
-import com.biz4solutions.clientinvoice.service.IOtpManagerService;
-import com.biz4solutions.clientinvoice.service.IPasswordManagerService;
-import com.biz4solutions.clientinvoice.util.ResponseFormatter;
+import com.management.clientinvoice.constant.UrlConstant;
+import com.management.clientinvoice.constant.WebConstants;
+import com.management.clientinvoice.dto.OtpRequestDTO;
+import com.management.clientinvoice.dto.UserDTO;
+import com.management.clientinvoice.exception.InvoiceManagementException;
+import com.management.clientinvoice.requestWrapper.*;
+import com.management.clientinvoice.service.ICommonService;
+import com.management.clientinvoice.service.IOtpManagerService;
+import com.management.clientinvoice.service.IPasswordManagerService;
+import com.management.clientinvoice.util.ResponseFormatter;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import org.apache.log4j.Logger;
@@ -160,7 +160,7 @@ public class AdminPasswordManagerController {
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<JSONObject> processValidationError(HttpServletRequest req, MethodArgumentNotValidException ex
-    ) throws  InvoiceManagementException {
+    ) throws InvoiceManagementException {
 
         BindingResult result = ex.getBindingResult();
         String localizedErrorMessage = "";

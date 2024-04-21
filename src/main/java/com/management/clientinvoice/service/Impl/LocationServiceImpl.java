@@ -1,10 +1,10 @@
-package com.biz4solutions.clientinvoice.service.Impl;
+package com.management.clientinvoice.service.Impl;
 
 
-import com.biz4solutions.clientinvoice.domain.Location;
-import com.biz4solutions.clientinvoice.dto.LocationDTO;
-import com.biz4solutions.clientinvoice.repository.LocationRepository;
-import com.biz4solutions.clientinvoice.service.LocationService;
+import com.management.clientinvoice.domain.Location;
+import com.management.clientinvoice.dto.LocationDTO;
+import com.management.clientinvoice.repository.LocationRepository;
+import com.management.clientinvoice.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
